@@ -1,1 +1,1 @@
-# flixora
+# netflix-clone
