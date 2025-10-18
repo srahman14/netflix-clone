@@ -61,5 +61,5 @@ export async function getMoviesByCategory(req, res) {
         res.status(200).json({success: true, content: data.results});
     } catch (error) {
         res.status(500).json({ success: false, message: "Internal Server Error" });
-    }
+    } 
 }
