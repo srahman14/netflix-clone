@@ -1,11 +1,9 @@
-import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import LoginPage from './pages/LoginPage'
 import SignUpPage from './pages/SignUpPage'
-import HomePage from './pages/HomePage'
+import HomePage from './pages/home/HomePage'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
