@@ -7,8 +7,7 @@ const AuthScreen = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-
-  }
+  };
   return (
     <div className="hero-bg relative">
       {/* Navbar */}
@@ -18,7 +17,10 @@ const AuthScreen = () => {
           alt="Netflix Logo"
           className="w-32 md:w-52"
         />
-        <Link to={"/login"} className="text-white bg-red-600 hover:bg-red-700 py-1 px-2 rounded">
+        <Link
+          to={"/login"}
+          className="text-white bg-red-600 hover:bg-red-700 py-1 px-2 rounded"
+        >
           Sign In
         </Link>
       </header>
@@ -50,6 +52,8 @@ const AuthScreen = () => {
           </button>
         </form>
       </div>
+
+      <div className="w-full h-2 bg-[#232323]" aria-hidden="true" />
     </div>
   );
 };
