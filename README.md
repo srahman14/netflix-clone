@@ -67,8 +67,8 @@ A full-stack application to search, browse, and track movies, TV shows, and acto
 
 ```bash
 # Clone the repo
-git clone <repo-url>
-cd <repo-root>
+git clone https://github.com/srahman14/netflix-clone/
+cd netflix-clone
 
 # Install dependencies
 npm install
