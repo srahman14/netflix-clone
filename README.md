@@ -4,6 +4,10 @@ A full-stack application to search, browse, and track movies, TV shows, and acto
 
 ---
 
+![netflix-clone](frontend/public/netflix-clone.png)
+
+---
+
 ## Tech Stack
 
 * **Frontend:** React, Vite, Tailwind CSS
