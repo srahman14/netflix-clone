@@ -54,7 +54,6 @@ const SearchHistoryPage = () => {
     getSearchHistory();
   }, []);
 
-  console.log(searchHistory);
   const handleDelete = async (entry) => {
     try {
       await axios.delete(`/api/v1/search/history/${entry.id}`);

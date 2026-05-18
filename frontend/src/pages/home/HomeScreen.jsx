@@ -12,7 +12,6 @@ const HomeScreen = () => {
   const { contentType } = useContentStore();
   const [imgLoading, setImgLoading] = useState(null);
   
-  console.log("CONTENT TYPE IN HOME SCREEN", contentType)
   	if (!trendingContent)
 		return (
 			<div className='h-screen text-white relative'>
@@ -21,7 +20,6 @@ const HomeScreen = () => {
 			</div>
 		);
 
-  // console.log("trendingContent: ", trendingContent)
   return (
 <>
 			<div className='relative h-screen text-white '>

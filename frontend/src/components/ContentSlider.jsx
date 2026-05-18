@@ -10,7 +10,6 @@ const ContentSlider = ({ category }) => {
   const [content, setContent] = useState([]);
   const [showArrows, setShowArrows] = useState(false);
 
-  // console.log("CONTENT TYPE IN SLIDER", contentType)
   const sliderRef = useRef(null);
 
   
